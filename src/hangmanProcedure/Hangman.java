@@ -22,7 +22,7 @@ public class Hangman {
 
 
     public static void startGame() {
-        System.out.println("Хотите сыграть?");
+        System.out.println("Хотите сыграть? (Напиши да или нет)");
         while (doYouWantToPlay()) {
             getListOfWords();
             getRandomWordFromTheList();
